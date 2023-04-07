@@ -1,0 +1,49 @@
+{
+  "AppName": "NavBar -responsive",
+
+  "navBar": [
+    {
+      "fr": "Accueil",
+      "en": "Home",
+      "es": "Inicio",
+      "link": "/"
+    },
+    
+    {
+      "fr": "A propos",
+      "en": "About",
+      "es": "Acerca de",
+      "link": "/About"
+    },
+    {
+      "fr": "Test",
+      "en": "Test",
+      "es": "Prueba",
+      "link": "/Test"
+    }    
+  ],
+  "screenHome": [
+    {
+      "key": "screenName",
+      "fr": "Accueil",
+      "en": "Home",
+      "es": "[es] Home]"
+    }
+  ],
+
+  "screenTest": [
+    {
+      "key": "screenName",
+      "fr": "Test",
+      "en": "Test",
+      "es": "Test"
+    }],
+    "screenTourism": [
+      {
+        "key": "screenName",
+        "fr": "Tourisme",
+        "en": "Tourism",
+        "es": "Tourismo"
+      }
+    ]
+}
