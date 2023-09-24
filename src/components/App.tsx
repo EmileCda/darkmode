@@ -12,18 +12,12 @@ import { useStore } from "@nanostores/react";
 
 
 export default function App() {
-  const [theme, setTheme] = useState("dark");
-  const isDarkTheme = theme !== "dark";
 
-  const toggleTheme = () => {
-    setTheme(isDarkTheme ? "light" : "dark");
-  };
     // -----------------------------------------------------------------------
   const { isDark } = useStore(DarkModeStore);
   return (
     <StrictMode>
       <BrowserRouter>
-      {/* <ThemeProvider theme= {colorsDark}> */}
       <ThemeProvider theme= {isDark ? colorsDark :colorsLight}>
       
         <AppGlobalStyle  />

@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { AppTheme } from "./App.style";
 
 export const NavbarLink = styled(Link)`
-  color: ${AppTheme.colors.forground};
+  color:${({ theme }) => theme.forground};
   font-family: ${AppTheme.font.extra};
   text-decoration: none;
   margin: 10px;
